@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Have questions, want to rate us or sign up? Reach out! We are ready to help!">
+        <meta name="keywords" content="contact form, feedback form, sign up form">
+        <meta name="author" content="SneakerSwish">
+        <link rel="stylesheet" href="mystyles.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CBS59E5NL2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CBS59E5NL2');
+</script>
+<body>
+    <header>
+        <div>
+            <img src="Images\SNEAKERSlogo.png" height="150" width="150" alt="Sneakers"> 
+            <h1>The SneakerSwish</h1>
+        </div>
+        <div>
+            <button type="button" onclick="window.location.href='contact.html'">Sign Up</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="homepage">Home</a></li>
+                <li><a href="collections.html" class="collectionspage">Collections</a>
+                <li><a href="#contact.html" class="contactpage">Contact Us</a></li>
+                <li><a href="contact.html" class="SignUpbutton">Sign Up </a></li>
+            </ul>
+        </nav>
+        <blockquote>
+            <p>"The Swishiest Sneakers"</p>
+        </blockquote>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <section>
+            <h3>Feedback Form</h3>
+            <form action="thankyou.html" method="post">
+                <label for="feedbackfirstname">First Name:</label>
+                <input type="text" id="feedbackfirstname" name="feedbackfirstname" required>
+                <label for="feedbacklastname">Last Name:</label>
+                <input type="text" id="feedbacklastname" name="feedbacklastname" required>
+                <label for="feedbackemail">E-mail:</label>
+                <input type="text" id="feedbackemail" name="feedbackemail" required>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Rate your experience</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Bad</option>
+                    <option value="5">Very Bad</option>
+                </select>
+                <input type="submit" value="Submit Review">
+            </form>
+        </section>
+        <section>
+            <h3>Contact Form</h3>
+            <form action="thankyou.html" method="post">
+                <label for="contactfirstname">First Name:</label>
+                <input type="text" id="contactfirstname" name="contactfirstname" required>
+                <label for="contactlastname">Last Name:</label>
+                <input type="text" id="contactlastname" name="contactlastname" required>
+                <label for="contactemail">E-mail:</label>
+                <input type="text" id="contactemail" name="contactemail" required>
+                <label for="question">Ask us:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+                <input type="submit" value="Submit Question">
+            </form>
+        </section>
+        <section>
+            <h3>Sign Up Form</h3>
+            <label for="signupfirstname">First Name:</label>
+                <input type="text" id="signupfirstname" name="signupfirstname" required>
+                <label for="signuplastname">Last Name:</label>
+                <input type="text" id="signuplastname" name="signuplastname" required>
+                <label for="signupemail">E-mail:</label>
+                <input type="email" id="signupemail" name="signupemail" required>
+                <input type="submit" value="Become a member !">
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="Images\SNEAKERSlogo.png" height="150" width="150" alt="sneakerswishlogo">
+            <h1>The SneakerSwish</h1> 
+        </div>
+        <div id="helptool">
+        <h4>Help</h4>
+        <p><a href="contact.html" class="contact">Contact Us</a></p>
+        </div>
+        <div id="businessinfo">
+            <h4>Business Information</h4>
+            <p><a href="index.html" class="homepage">About Us</a></p>
+            <p>E-mail address: TheSneakerSwish@gmail.com</p>
+            <p>Phone: 803-394-5033</p>
+            <p>Our Location: 902 Sumter St. 29208</p>
+        </div>
+        <p>&copy; 2024 The SneakerSwish</p>
+        <p>Website: <a href="index.html">SneakerSwish.com</a></p>
+    </footer>
+</body>
+</html>
